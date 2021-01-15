@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
+using SharedApi.Services;
 
 namespace SharedApi.Controllers
 {
@@ -9,16 +9,19 @@ namespace SharedApi.Controllers
     public class SharedApiController : ControllerBase
     {
         private readonly ILogger<SharedApiController> _logger;
+        private readonly SomeSharedService _someSharedService;
 
-        public SharedApiController(ILogger<SharedApiController> logger)
+        public SharedApiController(SomeSharedService someSharedService,
+            ILogger<SharedApiController> logger)
         {
             _logger = logger;
+            _someSharedService = someSharedService;
         }
 
         [HttpGet]
         public ActionResult<string> Get()
         { 
-            return Ok(new List<string> { "data from shared api", "more data" });
+            return Ok(_someSharedService.GetData());
         }
     }
 }
