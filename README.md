@@ -1,6 +1,6 @@
 # Shared ASP.NET Core
 
-![.NET(https://github.com/damienbod/SharedAspNetCore/workflows/.NET/badge.svg)](https://github.com/damienbod/SharedAspNetCore/actions?query=workflow%3A.NET)
+[![.NET](https://github.com/damienbod/SharedAspNetCore/workflows/.NET/badge.svg)](https://github.com/damienbod/SharedAspNetCore/actions?query=workflow%3A.NET)
 
 ## Links
 
