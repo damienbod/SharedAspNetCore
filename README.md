@@ -2,6 +2,8 @@
 
 [![.NET](https://github.com/damienbod/SharedAspNetCore/workflows/.NET/badge.svg)](https://github.com/damienbod/SharedAspNetCore/actions?query=workflow%3A.NET)
 
+https://damienbod.com/2021/01/18/using-asp-net-core-controllers-and-razor-pages-from-a-separate-shared-project-or-assembly/
+
 ## Links
 
 https://docs.microsoft.com/en-us/aspnet/core/razor-pages/ui-class
