@@ -16,6 +16,6 @@ public class Page1Model : PageModel
 
     public void OnGet()
     {
-        Data = SomeSharedPageService.GetData();
+        Data = _someSharedPageService.GetData();
     }
 }

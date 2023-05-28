@@ -17,6 +17,6 @@ public class SharedApiController : ControllerBase
     [HttpGet]
     public ActionResult<string> Get()
     { 
-        return Ok(SomeSharedService.GetData());
+        return Ok(_someSharedService.GetData());
     }
 }
