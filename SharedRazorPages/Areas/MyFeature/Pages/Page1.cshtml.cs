@@ -12,10 +12,10 @@ public class Page1Model : PageModel
         _someSharedPageService = someSharedPageService;
     }
 
-    public List<string> Data = new List<string>();
+    public List<string> Data = new();
 
     public void OnGet()
     {
-        Data = _someSharedPageService.GetData();
+        Data = SomeSharedPageService.GetData();
     }
 }

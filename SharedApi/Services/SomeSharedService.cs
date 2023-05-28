@@ -2,7 +2,7 @@
 
 public class SomeSharedService
 {
-    public List<string> GetData()
+    public static List<string> GetData()
     {
         return new List<string> { "data from shared api", "more data" };
     }
