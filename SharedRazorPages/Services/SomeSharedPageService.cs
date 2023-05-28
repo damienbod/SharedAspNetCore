@@ -1,12 +1,9 @@
-﻿using System.Collections.Generic;
+﻿namespace SharedRazorPages.Services;
 
-namespace SharedRazorPages.Services
+public class SomeSharedPageService
 {
-    public class SomeSharedPageService
+    public List<string> GetData()
     {
-        public List<string> GetData()
-        {
-            return new List<string> { "data from shared api", "more data" };
-        }
+        return new List<string> { "data from shared api", "more data" };
     }
 }
