@@ -6,7 +6,8 @@ https://damienbod.com/2021/01/18/using-asp-net-core-controllers-and-razor-pages-
 
 ## History 
 
-2023-05-28 Updated to .NET 7
+- 2023-11-03 Updated packages
+- 2023-05-28 Updated to .NET 7
 
 ## Links
 
